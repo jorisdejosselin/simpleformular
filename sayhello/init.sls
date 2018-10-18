@@ -3,5 +3,5 @@ installpack:
     - pkgs:
       - cowsay
 
-'cowsay "SURRENDER ALL COWS"':
+'/usr/games/cowsay "SURRENDER ALL COWS"':
    cmd.run

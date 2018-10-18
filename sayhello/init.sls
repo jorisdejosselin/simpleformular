@@ -2,6 +2,7 @@ installpack:
   pkg.installed:
     - pkgs:
       - cowsay
+      - fortune
 
-'/usr/games/cowsay "SURRENDER ALL COWS"':
+'/usr/games/fortune | /usr/games/cowsay':
    cmd.run
